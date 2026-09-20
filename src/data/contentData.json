@@ -3,6 +3,8 @@
     "name": "VietinBank",
     "fullName": "Ngân hàng Thương mại Cổ phần Công Thương Việt Nam",
     "branchName": "Chi nhánh Hội An",
+    "headerTitle": "Hỗ trợ hướng dẫn giao dịch",
+    "welcomeTitle": "Chào mừng Quý khách hàng đến với VietinBank Hội An",
     "logoUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/logovtbhoian.jpeg",
     "consultant": {
       "name": "LÝ TRIỆU HOÀNG",

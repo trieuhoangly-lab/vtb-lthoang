@@ -55,7 +55,7 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
           </div>
 
           <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight leading-tight">
-            Chào Mừng Quý Khách Đến Với Quầy Giao Dịch
+            {bankInfo.welcomeTitle}
           </h2>
 
           <p className="text-sm sm:text-base text-blue-100/90 leading-relaxed">
@@ -85,38 +85,37 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
             key={feature.id}
             id={`feature-card-${feature.key}`}
             onClick={() => onSelectFeature(feature.key as NavigationKey)}
-            className="group relative bg-white rounded-3xl p-6 border border-slate-200 hover:border-[#005596]/60 shadow-xs hover:shadow-xl transition-all duration-300 cursor-pointer flex flex-col justify-between overflow-hidden"
+            className="group relative bg-white rounded-3xl p-6 border border-slate-200 hover:border-[#005596]/60 shadow-xs hover:shadow-xl transition-all duration-300 cursor-pointer flex flex-col justify-between"
           >
-            {/* Ambient background hover tint */}
-            <div className="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-slate-100 group-hover:bg-blue-50 transition-colors pointer-events-none" />
-
-            <div>
-              <div className="flex items-center justify-between mb-4">
-                <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-blue-50 transition-all shadow-2xs">
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <div className="w-13 h-13 rounded-2xl bg-blue-50/80 border border-blue-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-[#005596]/10 transition-all shadow-2xs">
                   {getFeatureIcon(feature.icon)}
                 </div>
-                <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200 group-hover:bg-[#005596] group-hover:text-white group-hover:border-[#005596] transition-all">
+                <span className="text-xs font-bold px-3 py-1 rounded-full bg-[#ED1C24] text-white border border-[#ED1C24] shadow-xs group-hover:bg-[#d6161d] transition-all">
                   {feature.badge}
                 </span>
               </div>
 
-              <div className="flex items-center gap-2 mb-1.5">
-                <span className="text-xs font-extrabold text-[#ED1C24] bg-red-50 w-5 h-5 rounded-full flex items-center justify-center border border-red-100">
-                  {idx + 1}
-                </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-[#005596] transition-colors leading-snug">
-                  {feature.title}
-                </h3>
-              </div>
+              <div className="space-y-1.5">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-extrabold text-[#ED1C24] bg-red-50 w-5 h-5 rounded-full flex items-center justify-center border border-red-100 shrink-0">
+                    {idx + 1}
+                  </span>
+                  <h3 className="text-lg font-bold text-slate-900 group-hover:text-[#ED1C24] transition-colors leading-snug">
+                    {feature.title}
+                  </h3>
+                </div>
 
-              <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
-                {feature.subtitle}
-              </p>
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  {feature.subtitle}
+                </p>
+              </div>
             </div>
 
-            <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#005596]">
+            <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#ED1C24]">
               <span>Khám phá ngay</span>
-              <div className="w-7 h-7 rounded-full bg-blue-50 group-hover:bg-[#005596] text-[#005596] group-hover:text-white flex items-center justify-center transition-all group-hover:translate-x-1">
+              <div className="w-7 h-7 rounded-full bg-red-50 group-hover:bg-[#ED1C24] text-[#ED1C24] group-hover:text-white flex items-center justify-center transition-all group-hover:translate-x-1">
                 <ChevronRight className="w-4 h-4" />
               </div>
             </div>
@@ -135,7 +134,7 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
               Cần hỗ trợ trực tiếp tại quầy?
             </h4>
             <p className="text-xs sm:text-sm text-slate-500">
-              Liên hệ ngay Chuyên viên tư vấn {bankInfo.consultant.name}: <span className="font-bold text-[#005596]">{bankInfo.consultant.phone}</span>
+              Liên hệ ngay Chuyên viên tư vấn {bankInfo.consultant.name}: <span className="font-bold text-[#ED1C24]">{bankInfo.consultant.phone}</span>
             </p>
           </div>
         </div>
@@ -143,9 +142,10 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
         <a
           id="btn-call-consultant-footer"
           href={`tel:${bankInfo.consultant.phoneRaw}`}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#005596] hover:bg-[#004275] text-white font-bold text-sm shadow-xs transition-colors shrink-0"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#ED1C24] hover:bg-[#d6161d] text-white font-bold text-sm shadow-xs transition-colors shrink-0"
         >
-          <Phone className="w-4 h-4" /> Gọi ngay chuyên viên
+          <Phone className="w-4 h-4 fill-white text-white" />
+          <span>Gọi ngay {bankInfo.consultant.phone}</span>
         </a>
       </div>
     </div>

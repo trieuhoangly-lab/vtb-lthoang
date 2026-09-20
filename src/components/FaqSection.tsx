@@ -86,10 +86,8 @@ export const FaqSection: React.FC<FaqSectionProps> = ({
                 key={topic.id}
                 id={`card-faq-topic-${topic.id}`}
                 onClick={() => handleSelectTopic(topic.id)}
-                className="group relative bg-white rounded-2xl p-6 border border-slate-200 hover:border-[#005596]/60 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden flex flex-col justify-between"
+                className="group relative bg-white rounded-2xl p-6 border border-slate-200 hover:border-[#005596]/60 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer flex flex-col justify-between"
               >
-                <div className="absolute top-0 right-0 w-28 h-28 bg-linear-to-bl from-blue-50 to-transparent rounded-bl-full pointer-events-none -mr-4 -mt-4 transition-transform group-hover:scale-110" />
-
                 <div>
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-blue-50 transition-all">

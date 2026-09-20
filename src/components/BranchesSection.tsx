@@ -15,7 +15,6 @@ import { BranchItem } from '../types';
 
 export const BranchesSection: React.FC = () => {
   const { branchesSection } = contentData;
-  const [selectedBranchRegion, setSelectedBranchRegion] = useState<'Hội An' | 'Bắc Đà Nẵng'>('Hội An');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   const branches = branchesSection.branches as BranchItem[];
@@ -41,27 +40,19 @@ export const BranchesSection: React.FC = () => {
         </p>
       </div>
 
-      {/* Region Selector (Hội An vs Bắc Đà Nẵng per user prompt requirement) */}
+      {/* Region Selector */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
         <div className="flex items-center gap-2 w-full sm:w-auto">
           <span className="text-xs font-bold text-slate-500 uppercase tracking-wider whitespace-nowrap">
             Khu vực:
           </span>
           <div className="flex gap-2">
-            {(['Hội An', 'Bắc Đà Nẵng'] as const).map((region) => (
-              <button
-                key={region}
-                id={`btn-region-${region}`}
-                onClick={() => setSelectedBranchRegion(region)}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
-                  selectedBranchRegion === region
-                    ? 'bg-[#005596] text-white shadow-xs'
-                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                }`}
-              >
-                {region}
-              </button>
-            ))}
+            <button
+              id="btn-region-Hội An"
+              className="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-[#005596] text-white shadow-xs"
+            >
+              Hội An
+            </button>
           </div>
         </div>
 

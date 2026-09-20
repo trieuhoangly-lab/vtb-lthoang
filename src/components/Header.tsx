@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onNavigate }) => {
                 </span>
               </div>
               <h1 className="text-base sm:text-lg font-extrabold text-[#005596] tracking-tight leading-tight">
-                Quầy Giao Dịch Tương Tác
+                {bankInfo.headerTitle}
               </h1>
             </div>
           </div>
@@ -66,16 +66,15 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onNavigate }) => {
             <a
               id="btn-call-consultant-header"
               href={`tel:${bankInfo.consultant.phoneRaw}`}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-linear-to-r from-[#005596] to-[#0074c8] text-white text-xs sm:text-sm font-semibold shadow-xs hover:shadow-md hover:brightness-105 active:scale-95 transition-all"
+              className="flex items-center gap-2 px-3.5 sm:px-4 py-2 rounded-xl bg-[#ED1C24] hover:bg-[#d6161d] text-white text-xs sm:text-sm font-bold shadow-md hover:shadow-lg active:scale-95 transition-all border border-red-600"
             >
-              <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center animate-pulse">
-                <Phone className="w-3.5 h-3.5" />
+              <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center animate-pulse shrink-0">
+                <Phone className="w-3.5 h-3.5 fill-white text-white" />
               </div>
-              <div className="text-left leading-tight hidden xs:block">
-                <span className="text-[10px] text-blue-100 block">Tư vấn trực tiếp: {bankInfo.consultant.name}</span>
-                <span className="font-bold text-white tracking-wide">{bankInfo.consultant.phone}</span>
+              <div className="text-left leading-tight">
+                <span className="text-[10px] text-red-100 block font-medium">Tư vấn trực tiếp</span>
+                <span className="font-extrabold text-white tracking-wider text-xs sm:text-sm">{bankInfo.consultant.phone}</span>
               </div>
-              <span className="xs:hidden font-bold">Gọi hỗ trợ</span>
             </a>
           </div>
         </div>

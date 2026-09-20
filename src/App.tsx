@@ -54,11 +54,11 @@ export default function App() {
               onClick={() => handleNavigate('home')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'home'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <Home className="w-3.5 h-3.5" /> Trang chủ
+              <Home className={`w-3.5 h-3.5 ${currentTab === 'home' ? 'text-white' : 'text-[#ED1C24]'}`} /> Trang chủ
             </button>
 
             <button
@@ -66,11 +66,11 @@ export default function App() {
               onClick={() => handleNavigate('faq')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'faq'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <HelpCircle className="w-3.5 h-3.5 text-[#005596]" /> Giải đáp thắc mắc
+              <HelpCircle className={`w-3.5 h-3.5 ${currentTab === 'faq' ? 'text-white' : 'text-[#005596]'}`} /> Giải đáp thắc mắc
             </button>
 
             <button
@@ -78,11 +78,11 @@ export default function App() {
               onClick={() => handleNavigate('download_ipay')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'download_ipay'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <Smartphone className="w-3.5 h-3.5 text-[#0074c8]" /> Tải App iPay
+              <Smartphone className={`w-3.5 h-3.5 ${currentTab === 'download_ipay' ? 'text-white' : 'text-[#0074c8]'}`} /> Tải App iPay
             </button>
 
             <button
@@ -94,7 +94,7 @@ export default function App() {
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <Gamepad2 className="w-3.5 h-3.5 text-[#ED1C24]" /> Thử thách Game
+              <Gamepad2 className={`w-3.5 h-3.5 ${currentTab === 'games' ? 'text-white' : 'text-[#ED1C24]'}`} /> Thử thách Game
             </button>
 
             <button
@@ -102,11 +102,11 @@ export default function App() {
               onClick={() => handleNavigate('deposit_calc')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'deposit_calc'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <Calculator className="w-3.5 h-3.5 text-emerald-600" /> Tính lãi tiền gửi
+              <Calculator className={`w-3.5 h-3.5 ${currentTab === 'deposit_calc' ? 'text-white' : 'text-emerald-600'}`} /> Tính lãi tiền gửi
             </button>
 
             <button
@@ -114,11 +114,11 @@ export default function App() {
               onClick={() => handleNavigate('loan_calc')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'loan_calc'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <CalendarDays className="w-3.5 h-3.5 text-amber-600" /> Lịch trả nợ vay
+              <CalendarDays className={`w-3.5 h-3.5 ${currentTab === 'loan_calc' ? 'text-white' : 'text-amber-600'}`} /> Lịch trả nợ vay
             </button>
 
             <button
@@ -126,11 +126,11 @@ export default function App() {
               onClick={() => handleNavigate('featured_products')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'featured_products'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <Sparkles className="w-3.5 h-3.5 text-purple-600" /> Sản phẩm nổi bật
+              <Sparkles className={`w-3.5 h-3.5 ${currentTab === 'featured_products' ? 'text-white' : 'text-purple-600'}`} /> Sản phẩm nổi bật
             </button>
 
             <button
@@ -138,11 +138,11 @@ export default function App() {
               onClick={() => handleNavigate('branches')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 currentTab === 'branches'
-                  ? 'bg-[#005596] text-white shadow-2xs'
+                  ? 'bg-[#ED1C24] text-white shadow-2xs'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
-              <MapPin className="w-3.5 h-3.5 text-rose-600" /> Điểm giao dịch
+              <MapPin className={`w-3.5 h-3.5 ${currentTab === 'branches' ? 'text-white' : 'text-rose-600'}`} /> Điểm giao dịch
             </button>
           </div>
         </div>
