@@ -1,0 +1,453 @@
+{
+  "bankInfo": {
+    "name": "VietinBank",
+    "fullName": "Ngân hàng Thương mại Cổ phần Công Thương Việt Nam",
+    "branchName": "Chi nhánh Hội An",
+    "logoUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/logovtbhoian.jpeg",
+    "consultant": {
+      "name": "LÝ TRIỆU HOÀNG",
+      "phone": "0905 046 889",
+      "phoneFormatted": "0905 046 889",
+      "phoneRaw": "0905046889"
+    },
+    "slogan": "Nâng giá trị cuộc sống",
+    "colors": {
+      "primary": "#005596",
+      "secondary": "#ED1C24",
+      "accent": "#0093D8",
+      "gold": "#F59E0B"
+    }
+  },
+  "featuresNav": [
+    {
+      "id": 1,
+      "key": "faq",
+      "title": "Giải đáp thắc mắc",
+      "subtitle": "Hướng dẫn quên MK, đóng thẻ, CCCD & Sinh trắc học",
+      "badge": "Hỗ trợ 24/7",
+      "icon": "HelpCircle"
+    },
+    {
+      "id": 2,
+      "key": "download_ipay",
+      "title": "Tải App VietinBank Ipay",
+      "subtitle": "Quét mã tải ứng dụng trên iOS & Android",
+      "badge": "Tiện ích số",
+      "icon": "Smartphone"
+    },
+    {
+      "id": 3,
+      "key": "games",
+      "title": "Thử thách Game",
+      "subtitle": "Chờ vui, chơi hay - Nhận voucher Mót Hội An",
+      "badge": "Tặng voucher",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": 4,
+      "key": "deposit_calc",
+      "title": "Tính lãi tiền gửi",
+      "subtitle": "Ước tính lãi suất gửi tiết kiệm nhanh chóng",
+      "badge": "Sinh lời",
+      "icon": "Calculator"
+    },
+    {
+      "id": 5,
+      "key": "loan_calc",
+      "title": "Lịch trả nợ khoản vay",
+      "subtitle": "Dư nợ giảm dần, chi tiết từng kỳ trả nợ",
+      "badge": "Vay vốn",
+      "icon": "CalendarDays"
+    },
+    {
+      "id": 6,
+      "key": "featured_products",
+      "title": "Sản phẩm dịch vụ nổi bật",
+      "subtitle": "Tài khoản kinh doanh, chạm POS, thu hộ, đấu giá",
+      "badge": "Nổi bật",
+      "icon": "Sparkles"
+    },
+    {
+      "id": 7,
+      "key": "branches",
+      "title": "Điểm giao dịch",
+      "subtitle": "Hệ thống Chi nhánh & PGD tại Hội An",
+      "badge": "Mạng lưới",
+      "icon": "MapPin"
+    }
+  ],
+  "faqSection": {
+    "heading": "Anh/chị đang gặp khó khăn với nội dung nào?",
+    "subheading": "Chọn chuyên mục cần hỗ trợ bên dưới để xem hướng dẫn chi tiết từng bước bằng hình ảnh và video",
+    "thankYouExitMessage": "Cảm ơn Quý khách đã sử dụng dịch vụ của VietinBank. Chúc Quý khách một ngày tốt lành!",
+    "notOkFeedbackMessage": "Cảm ơn Quý khách đã phản hồi. Quý khách có thể liên hệ Chuyên viên tư vấn LÝ TRIỆU HOÀNG – số điện thoại: 0905 046 889 để hỗ trợ trực tiếp. Em sẽ cố gắng cải thiện để phục vụ Quý khách tốt hơn!",
+    "topics": [
+      {
+        "id": "forgot_password",
+        "title": "Hướng dẫn quên mật khẩu Ipay",
+        "badge": "Bảo mật",
+        "description": "Các bước cấp lại và đổi mật khẩu mới trên ứng dụng VietinBank Ipay nhanh chóng",
+        "videoUrl": "https://www.youtube.com/watch?v=86r0pxPOzbs",
+        "steps": [
+          {
+            "step": 1,
+            "text": "Ở màn hình đăng nhập, chọn Quên mật khẩu.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.1.png"
+          },
+          {
+            "step": 2,
+            "text": "Nhập tên đăng nhập và số điện thoại đăng ký sau đó bấm “Tiếp tục”.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.2.png"
+          },
+          {
+            "step": 3,
+            "text": "Nhập mã OTP được gửi về tin nhắn SMS, sau đó bấm Tiếp tục.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.3.png"
+          },
+          {
+            "step": 4,
+            "text": "Xác thực khuôn mặt theo yêu cầu. Sau khi hoàn thành Ipay sẽ gửi mật khẩu mới về tin nhắn (SMS). Bấm đăng nhập Ipay để tiếp tục.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.4.png"
+          },
+          {
+            "step": 5,
+            "text": "Nhập mật khẩu theo yêu cầu:\n- Mật khẩu hiện tại: Nhập theo mật khẩu được gửi về tin nhắn (SMS)\n- Mật khẩu mới: Là mật khẩu mà khách hàng cần đổi\nBấm Tiếp tục.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.5.png"
+          },
+          {
+            "step": 6,
+            "text": "Thực hiện quét khuôn mặt để xác nhận đổi mật khẩu thành công.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/1.6.png"
+          }
+        ]
+      },
+      {
+        "id": "close_card",
+        "title": "Hướng dẫn đóng thẻ",
+        "badge": "Quản lý thẻ",
+        "description": "Thao tác chủ động đóng hoặc khóa thẻ thanh toán, thẻ tín dụng trực tuyến trên Ipay",
+        "videoUrl": "https://www.youtube.com/watch?v=acdT3KxET40",
+        "steps": [
+          {
+            "step": 1,
+            "text": "Đăng nhập vào App VietinBank Ipay.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.1.png"
+          },
+          {
+            "step": 2,
+            "text": "Vào mục danh sách thẻ.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.2.png"
+          },
+          {
+            "step": 3,
+            "text": "Xem đúng thẻ cần đóng, bấm vào phần xem thêm.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.3.png"
+          },
+          {
+            "step": 4,
+            "text": "Chọn đóng thẻ.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.4.png"
+          },
+          {
+            "step": 5,
+            "text": "Nhập mã OTP xác thực.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.5.png"
+          },
+          {
+            "step": 6,
+            "text": "Xác nhận OTP để hoàn tất đóng thẻ.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/2.6.png"
+          }
+        ]
+      },
+      {
+        "id": "biometric_update",
+        "title": "Hướng dẫn cập nhật sinh trắc học",
+        "badge": "Quy định QĐ 2345",
+        "description": "Thu thập khuôn mặt và đọc chip NFC từ CCCD để đảm bảo an toàn giao dịch chuyển khoản trên 10 triệu đồng",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "text": "Đăng nhập VietinBank Ipay.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.1.png"
+          },
+          {
+            "step": 2,
+            "text": "Click vào nút “Bắt đầu chụp”.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.2.png"
+          },
+          {
+            "step": 3,
+            "text": "Chụp mặt trước căn cước công dân (rõ nét, không loá sáng).",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.3.png"
+          },
+          {
+            "step": 4,
+            "text": "Chụp mặt sau căn cước công dân.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.4.png"
+          },
+          {
+            "step": 5,
+            "text": "Click vào nút “Đã hiểu” để sang bước quét khuôn mặt.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.5.png"
+          },
+          {
+            "step": 6,
+            "text": "Đưa gương mặt vào khung hình theo chỉ dẫn trên màn hình.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.6.png"
+          },
+          {
+            "step": 7,
+            "text": "Đặt mặt trước CCCD ngay sát mặt sau điện thoại để đọc chip NFC (giữ nguyên điện thoại 3 - 5 giây).",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.7.png"
+          },
+          {
+            "step": 8,
+            "text": "Kiểm tra lại thông tin và bấm “Tiếp tục” để hoàn tất cập nhật sinh trắc học.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.8.png"
+          }
+        ]
+      },
+      {
+        "id": "cccd_verify",
+        "title": "Xác thực CCCD gắn chip",
+        "badge": "Định danh điện tử",
+        "description": "Đồng bộ và làm sạch dữ liệu tài khoản khớp với Cơ sở dữ liệu Quốc gia về Dân cư",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "text": "Chuẩn bị Căn cước công dân có gắn chip còn hiệu lực và điện thoại thông minh có hỗ trợ NFC.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.1.png"
+          },
+          {
+            "step": 2,
+            "text": "Đăng nhập App VietinBank Ipay, chọn mục 'Cài đặt' -> 'Cập nhật giấy tờ tùy thân CCCD gắn chip'.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.2.png"
+          },
+          {
+            "step": 3,
+            "text": "Quét thông tin mặt trước & mặt sau CCCD để hệ thống nhận diện số định danh cá nhân.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.3.png"
+          },
+          {
+            "step": 4,
+            "text": "Áp thẻ CCCD vào mặt sau điện thoại (vùng ăng-ten NFC) để đọc dữ liệu từ chip thẻ.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.7.png"
+          },
+          {
+            "step": 5,
+            "text": "Xác thực khuôn mặt nhận diện sinh trắc học để bảo đảm chính chủ và hoàn thành xác thực.",
+            "imageUrl": "https://raw.githubusercontent.com/trieuhoangly-lab/anh-hoian/main/3.8.png"
+          }
+        ]
+      }
+    ]
+  },
+  "downloadIpaySection": {
+    "title": "Tải App VietinBank Ipay",
+    "subtitle": "Ngân hàng số thông minh trên thiết bị di động - Mở tài khoản số đẹp, chuyển tiền 0đ, thanh toán hóa đơn dễ dàng",
+    "ios": {
+      "platform": "iOS (iPhone / iPad)",
+      "storeName": "App Store",
+      "url": "https://apps.apple.com/vn/app/vietinbank-ipay/id689963454?l=vi",
+      "qrData": "https://apps.apple.com/vn/app/vietinbank-ipay/id689963454?l=vi",
+      "qrImage": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fapps.apple.com%2Fvn%2Fapp%2Fvietinbank-ipay%2Fid689963454%3Fl%3Dvi"
+    },
+    "android": {
+      "platform": "Android (Samsung, Xiaomi, Oppo...)",
+      "storeName": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+      "qrData": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+      "qrImage": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.vietinbank.ipay"
+    },
+    "features": [
+      "Miễn phí 100% phí chuyển khoản trong và ngoài hệ thống",
+      "Mở tài khoản thanh toán online eKYC chỉ trong 2 phút",
+      "Gửi tiết kiệm online lãi suất ưu đãi cộng thêm 0.3%/năm",
+      "Hệ sinh thái hơn 2000 dịch vụ: mua vé máy bay, xem phim, thanh toán điện nước",
+      "Bảo mật đa tầng với Soft OTP và công nghệ sinh trắc học Face ID"
+    ]
+  },
+  "gamesSection": {
+    "title": "Thử thách Game",
+    "subtitle": "Chơi vui tại quầy trong lúc chờ giao dịch – Nhận quà voucher Mót Hội An liền tay!",
+    "games": [
+      {
+        "id": "flappy",
+        "name": "Chờ vui – Chơi hay – Nhận quà liền tay",
+        "type": "Flappy Bird",
+        "description": "Điều khiển nhân vật VietinBank bay khéo léo qua các chướng ngại vật. Đạt 20 điểm để nhận ngay Voucher 02 nước Mót Hội An!",
+        "targetScore": 20,
+        "rewardText": "Voucher 02 nước Mót Hội An",
+        "brandName": "VietinBank",
+        "instructions": "Chạm vào màn hình hoặc nhấn phím Space để nhân vật bay lên. Tránh va vào các ống chướng ngại vật."
+      },
+      {
+        "id": "snake",
+        "name": "VietinBank Snake Challenge",
+        "type": "Rắn săn mồi",
+        "description": "Điều khiển chú rắn VietinBank thu thập các biểu tượng ngân hàng. Đạt 20 điểm nhận 1 voucher, đạt 40 điểm nhận 2 voucher nước Mót Hội An!",
+        "targetScore": 20,
+        "targetScore2": 40,
+        "rewardText1": "01 voucher nước Mót Hội An (hoặc 01 voucher xăng 2L)",
+        "rewardText2": "02 voucher nước Mót Hội An (hoặc 02 voucher xăng 2L)",
+        "brandName": "VietinBank",
+        "instructions": "Dùng 4 phím mũi tên hoặc nút điều khiển trên màn hình để di chuyển rắn ăn mồi và tránh tự cắn thân hoặc đâm vào tường."
+      }
+    ]
+  },
+  "depositCalcSection": {
+    "title": "Công cụ tính lãi suất tiền gửi sản phẩm tiền gửi thông thường trả lãi sau",
+    "subtitle": "Tính toán nhanh chóng số tiền lãi nhận được khi gửi tiết kiệm tại VietinBank",
+    "minAmount": 1000000,
+    "tiktokVideoUrl": "https://www.tiktok.com/@nguyentrangtkneu/video/7202579533806062875?is_from_webapp=1&sender_device=pc&web_id=7603681770291086866",
+    "terms": [
+      { "id": "1m", "label": "1 tháng", "months": 1, "defaultRate": 2.2 },
+      { "id": "2m", "label": "2 tháng", "months": 2, "defaultRate": 2.2 },
+      { "id": "3m", "label": "3 tháng", "months": 3, "defaultRate": 2.5 },
+      { "id": "6m", "label": "6 tháng", "months": 6, "defaultRate": 3.5 },
+      { "id": "9m", "label": "9 tháng", "months": 9, "defaultRate": 3.5 },
+      { "id": "12m", "label": "12 tháng (1 năm)", "months": 12, "defaultRate": 5.0 },
+      { "id": "18m", "label": "18 tháng", "months": 18, "defaultRate": 5.0 },
+      { "id": "24m", "label": "24 tháng (2 năm)", "months": 24, "defaultRate": 5.0 },
+      { "id": "36m", "label": "36 tháng (3 năm)", "months": 36, "defaultRate": 5.0 }
+    ],
+    "quickAmounts": [
+      { "label": "50 triệu", "value": 50000000 },
+      { "label": "100 triệu", "value": 100000000 },
+      { "label": "200 triệu", "value": 200000000 },
+      { "label": "500 triệu", "value": 500000000 },
+      { "label": "1 tỷ", "value": 1000000000 }
+    ]
+  },
+  "loanCalcSection": {
+    "title": "Bảng Tính Lãi Suất Vay",
+    "subtitle": "Phương thức trả nợ: Gốc đều hàng tháng, lãi tính trên dư nợ giảm dần",
+    "description": "Gốc trả mỗi kỳ = Số tiền vay / Tổng số kỳ trả nợ. Lãi kỳ hiện tại = Dư nợ đầu kỳ × Lãi suất kỳ. Tổng tiền trả kỳ = Gốc kỳ + Lãi kỳ. Số tiền trả giảm dần theo thời gian, tối ưu tổng tiền lãi phải trả.",
+    "defaultAmount": 500000000,
+    "defaultCollateral": 1000000000,
+    "defaultTermMonths": 36,
+    "defaultYearlyRate": 8.5,
+    "defaultDisbursementDate": "2026-01-10",
+    "defaultPaymentDay": 25,
+    "frequencyOptions": [
+      { "id": "monthly", "label": "Hằng tháng", "divisor": 12, "stepMonths": 1 },
+      { "id": "quarterly", "label": "Hằng quý (3 tháng)", "divisor": 4, "stepMonths": 3 },
+      { "id": "halfyear", "label": "6 tháng", "divisor": 2, "stepMonths": 6 },
+      { "id": "yearly", "label": "Hằng năm", "divisor": 1, "stepMonths": 12 }
+    ]
+  },
+  "featuredProductsSection": {
+    "title": "Sản phẩm dịch vụ nổi bật",
+    "description": "Khám phá các sản phẩm, ưu đãi và tiện ích VietinBank đang được giới thiệu tại chi nhánh.",
+    "modalMessage": "Cảm ơn Quý khách đã quan tâm đến sản phẩm/dịch vụ này. Quý khách vui lòng liên hệ cán bộ VietinBank tại quầy để được tư vấn chi tiết.\nHoặc liên hệ Chuyên viên tư vấn Lý Triệu Hoàng – 0905 046 889.",
+    "consultant": {
+      "name": "Lý Triệu Hoàng",
+      "phone": "0905 046 889",
+      "phoneRaw": "0905046889"
+    },
+    "categories": [
+      "Tất cả",
+      "Cá nhân",
+      "Hộ kinh doanh",
+      "Doanh nghiệp",
+      "Ưu đãi",
+      "Tài sản bảo đảm"
+    ],
+    "products": [
+      {
+        "id": "prod_1",
+        "category": "Hộ kinh doanh",
+        "title": "Mở tài khoản hộ kinh doanh",
+        "badge": "Gói giải pháp toàn diện",
+        "highlight": true,
+        "description": "Tài khoản thanh toán chuyên biệt cho Hộ kinh doanh: Ưu đãi phí chuyển tiền, giải pháp thanh toán QR VietQR thông minh, miễn phí đặt số tài khoản đẹp.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/M%E1%BB%9F%20t%C3%A0i%20kho%E1%BA%A3n%20h%E1%BB%99%20kinh%20doanh.png"
+      },
+      {
+        "id": "prod_2",
+        "category": "Cá nhân",
+        "title": "Chạm POS rút tiền",
+        "badge": "Tiện ích không dùng thẻ vật lý",
+        "highlight": true,
+        "description": "Rút tiền mặt và thanh toán tiện lợi bằng cách chạm thẻ chip không tiếp xúc hoặc điện thoại Apple Pay/Google Pay trực tiếp trên máy POS VietinBank.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Ch%E1%BA%A1m%20POS%20r%C3%BAt%20ti%E1%BB%81n.png"
+      },
+      {
+        "id": "prod_3",
+        "category": "Doanh nghiệp",
+        "title": "Sản phẩm thu hộ KHDN",
+        "badge": "Quản lý dòng tiền tự động",
+        "highlight": false,
+        "description": "Giải pháp thu hộ chuyên nghiệp cho Khách hàng Doanh nghiệp, trường học, bệnh viện: Tự động gạch nợ tức thời, bảo mật an toàn dữ liệu kế toán.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Thu%20h%E1%BB%99%20KHDN.png"
+      },
+      {
+        "id": "prod_4",
+        "category": "Ưu đãi",
+        "title": "Gói vay ưu đãi lãi suất & Miễn phí chuyển khoản",
+        "badge": "Ưu đãi hiện hành",
+        "highlight": true,
+        "description": "Ưu đãi lãi suất vay phục vụ sản xuất kinh doanh và tiêu dùng, giảm tới 1.5%/năm so với biểu lãi suất thông thường cùng nhiều đặc quyền hấp dẫn.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Ch%E1%BA%A1m%20POS%20r%C3%BAt%20ti%E1%BB%81n.png"
+      },
+      {
+        "id": "prod_5",
+        "category": "Tài sản bảo đảm",
+        "title": "Bán đấu giá tài sản bảo đảm",
+        "badge": "Minh bạch pháp lý",
+        "highlight": false,
+        "description": "Danh mục tài sản bảo đảm phát mại, thanh lý đấu giá công khai, đầy đủ hồ sơ pháp lý minh bạch do VietinBank quản lý và chuyển nhượng.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/T%C3%A0i%20s%E1%BA%A3n%20b%E1%BA%A3o%20%C4%91%E1%BA%A3m%201.jpg"
+      }
+    ]
+  },
+  "branchesSection": {
+    "title": "Điểm giao dịch VietinBank Hội An & Các Phòng Giao Dịch",
+    "subtitle": "Hệ thống điểm giao dịch ngân hàng phục vụ Quý khách tại thành phố Hội An và khu vực lân cận",
+    "schedule": {
+      "weekdays": "Thứ 2 đến thứ 6: Sáng từ 07:30 - 11:30 | Chiều từ 13:00 - 16:30",
+      "weekend": "Thứ 7 - Chủ nhật: Nghỉ giao dịch"
+    },
+    "branches": [
+      {
+        "stt": 1,
+        "name": "Chi nhánh Hội An (Trụ sở chính)",
+        "address": "Số 04 Hoàng Diệu, Phường Hội An, Thành phố Đà Nẵng",
+        "hotline": "0235.3861340",
+        "hotlineRaw": "02353861340",
+        "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Anh-CN/Hoi-An/Chi%20nhanh%20484.jpeg",
+        "mapUrl": "https://maps.app.goo.gl/ybXtHsG8Qz1EKKw69"
+      },
+      {
+        "stt": 2,
+        "name": "PGD Điện Nam - Điện Ngọc - CN Hội An",
+        "address": "Số 1056 đường Trần Hưng Đạo, Phường Điện Bàn Đông, Thành phố Đà Nẵng",
+        "hotline": "0235.2212604",
+        "hotlineRaw": "02352212604",
+        "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Anh-CN/Hoi-An/PGD%20Dien%20Nam%20Dien%20Ngoc%2048430.jpeg",
+        "mapUrl": "https://maps.app.goo.gl/MR59KmFuPuVn47vD7"
+      },
+      {
+        "stt": 3,
+        "name": "PGD Vĩnh Điện - CN Hội An",
+        "address": "Số 124 Trần Nhân Tông, Phường Điện Bàn, Thành phố Đà Nẵng",
+        "hotline": "0235.3716155",
+        "hotlineRaw": "02353716155",
+        "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Anh-CN/Hoi-An/PGD%20Vinh%20Dien%2048431.jpeg",
+        "mapUrl": "https://maps.app.goo.gl/uirv1YhoeMwkQjJL6"
+      },
+      {
+        "stt": 4,
+        "name": "PGD Hùng Vương - CN Hội An",
+        "address": "Số 09 Hùng Vương, Phường Hội An, Thành phố Đà Nẵng",
+        "hotline": "0235.3925333",
+        "hotlineRaw": "02353925333",
+        "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Anh-CN/Hoi-An/PGD%20Hung%20Vuong%2048432.jpeg",
+        "mapUrl": "https://maps.app.goo.gl/8tXEGpNTk76LF15V8"
+      }
+    ]
+  }
+}
