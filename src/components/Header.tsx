@@ -71,10 +71,9 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onNavigate }) => {
               <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center animate-pulse shrink-0">
                 <Phone className="w-3.5 h-3.5 fill-white text-white" />
               </div>
-              <div className="text-left leading-tight">
-                <span className="text-[10px] text-red-100 block font-medium">Tư vấn trực tiếp</span>
-                <span className="font-extrabold text-white tracking-wider text-xs sm:text-sm">{bankInfo.consultant.phone}</span>
-              </div>
+              <span className="font-extrabold text-white tracking-wide text-xs sm:text-sm">
+                0905046889
+              </span>
             </a>
           </div>
         </div>
