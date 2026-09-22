@@ -10,6 +10,7 @@ import { FeaturedProductsSection } from './components/FeaturedProductsSection';
 import { BranchesSection } from './components/BranchesSection';
 import { LocalTourismSection } from './components/LocalTourismSection';
 import { TradeMapSection } from './components/TradeMapSection';
+import { MediaSection } from './components/MediaSection';
 import { ThankYouModal } from './components/ThankYouModal';
 import { NavigationKey } from './types';
 import contentData from './data/contentData.json';
@@ -24,7 +25,9 @@ import {
   Compass,
   Store,
   Home,
-  Heart
+  Heart,
+  Video,
+  Share2
 } from 'lucide-react';
 
 export default function App() {
@@ -172,6 +175,18 @@ export default function App() {
             >
               <Store className={`w-3.5 h-3.5 ${currentTab === 'trade_map' ? 'text-white' : 'text-amber-600'}`} /> Bản đồ giao thương
             </button>
+
+            <button
+              id="nav-tab-media"
+              onClick={() => handleNavigate('media')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                currentTab === 'media'
+                  ? 'bg-[#005596] text-white shadow-xs'
+                  : 'text-slate-600 hover:bg-blue-50 hover:text-[#005596]'
+              }`}
+            >
+              <Video className={`w-3.5 h-3.5 ${currentTab === 'media' ? 'text-white' : 'text-pink-600'}`} /> Truyền thông - Giải trí
+            </button>
           </div>
         </div>
       </nav>
@@ -220,15 +235,51 @@ export default function App() {
         {currentTab === 'trade_map' && (
           <TradeMapSection onBackToHome={() => handleNavigate('home')} />
         )}
+
+        {currentTab === 'media' && (
+          <MediaSection onBackToHome={() => handleNavigate('home')} />
+        )}
       </main>
 
       {/* 4. Footer */}
       <footer className="bg-white border-t border-slate-200 mt-auto py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div className="flex items-center gap-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <div className="flex flex-wrap items-center gap-2">
             <span className="font-bold text-[#005596]">{bankInfo.fullName}</span>
             <span>•</span>
             <span className="font-semibold text-slate-700">{bankInfo.branchName}</span>
+          </div>
+
+          {/* Social media links */}
+          <div className="flex items-center gap-3 bg-slate-50 px-3.5 py-1.5 rounded-xl border border-slate-200/80">
+            <span className="text-slate-500 font-medium">Truyền thông:</span>
+            <a
+              id="footer-link-tiktok"
+              href="https://www.tiktok.com/@vietinhoian"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-800 hover:text-black font-bold flex items-center gap-1 transition-colors"
+            >
+              <span>TikTok</span>
+            </a>
+            <span>•</span>
+            <a
+              id="footer-link-facebook"
+              href="https://www.facebook.com/vietinbankhoian"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1877F2] hover:underline font-bold flex items-center gap-1 transition-colors"
+            >
+              <span>Facebook</span>
+            </a>
+            <span>•</span>
+            <button
+              id="footer-btn-open-media"
+              onClick={() => handleNavigate('media')}
+              className="text-[#005596] hover:underline font-bold"
+            >
+              Xem QR
+            </button>
           </div>
 
           <div className="flex items-center gap-4">

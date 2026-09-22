@@ -92,6 +92,14 @@
       "subtitle": "Tìm cơ sở kinh doanh uy tín theo ngành nghề & địa phương",
       "badge": "Giao thương",
       "icon": "Store"
+    },
+    {
+      "id": 10,
+      "key": "media",
+      "title": "Truyền thông - Giải trí",
+      "subtitle": "Kênh TikTok & Facebook VietinBank Chi nhánh Hội An",
+      "badge": "Truyền thông",
+      "icon": "Video"
     }
   ],
   "faqSection": {
@@ -716,5 +724,49 @@
         }
       ]
     }
+  },
+  "mediaChannelsSection": {
+    "title": "Link truyền thông - giải trí VietinBank Chi nhánh Hội An",
+    "subtitle": "Kênh chính thức cập nhật thông tin hữu ích, video giải trí, ưu đãi tài chính và nhịp sống Hội An",
+    "channels": [
+      {
+        "id": "tiktok",
+        "name": "Kênh Tiktok VietinHoiAn",
+        "handle": "@vietinhoian",
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@vietinhoian",
+        "qrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https%3A%2F%2Fwww.tiktok.com%2F%40vietinhoian",
+        "badge": "Video ngắn & Đời sống số",
+        "description": "Kênh TikTok chính thức chia sẻ những thước phim ngắn gần gũi, mẹo sử dụng ứng dụng VietinBank iPay tiện lợi, cẩm nang phòng chống lừa đảo trực tuyến và phong vị phố cổ Hội An sinh động.",
+        "highlights": [
+          "Mẹo giao dịch thông minh & an toàn trên iPay",
+          "Hình ảnh phục vụ khách hàng tận tâm tại Hội An",
+          "Minigame & quà tặng hấp dẫn cùng voucher Mót"
+        ],
+        "buttonText": "Xem TikTok @vietinhoian",
+        "color": "#000000",
+        "textColor": "text-black",
+        "bgGradient": "from-slate-900 via-neutral-900 to-black"
+      },
+      {
+        "id": "facebook",
+        "name": "Kênh Facebook VietinBank Hội An",
+        "handle": "vietinbankhoian",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/vietinbankhoian",
+        "qrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https%3A%2F%2Fwww.facebook.com%2Fvietinbankhoian",
+        "badge": "Fanpage chính thức",
+        "description": "Fanpage chính thức kết nối cộng đồng, cập nhật biểu lãi suất tiền gửi cạnh tranh, chính sách vay kinh doanh - tiêu dùng mới nhất và hỗ trợ tư vấn dịch vụ ngân hàng 24/7.",
+        "highlights": [
+          "Thông tin ưu đãi lãi suất & sản phẩm dịch vụ mới",
+          "Chính sách hỗ trợ tín dụng cá nhân và doanh nghiệp",
+          "Kênh phản hồi, tư vấn trực tiếp qua Messenger"
+        ],
+        "buttonText": "Xem Facebook VietinBank Hội An",
+        "color": "#1877F2",
+        "textColor": "text-[#1877F2]",
+        "bgGradient": "from-[#005596] via-[#004780] to-[#1877F2]"
+      }
+    ]
   }
 }

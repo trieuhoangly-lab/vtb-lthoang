@@ -13,7 +13,11 @@ import {
   Phone,
   ShieldCheck,
   Building2,
-  Clock
+  Clock,
+  Video,
+  Share2,
+  ThumbsUp,
+  ExternalLink
 } from 'lucide-react';
 import contentData from '../data/contentData.json';
 import { NavigationKey } from '../types';
@@ -103,6 +107,14 @@ const FEATURE_THEMES: Record<string, FeatureTheme> = {
     titleHover: 'group-hover:text-orange-600',
     button: 'bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 shadow-orange-600/25',
     cardHover: 'hover:border-orange-300 hover:shadow-orange-500/10'
+  },
+  media: {
+    iconBox: 'bg-pink-50 border-pink-100/80 text-rose-600',
+    badge: 'bg-gradient-to-r from-rose-600 to-pink-600 text-white border-pink-400/30 shadow-pink-600/20',
+    numberTag: 'text-rose-700 bg-pink-50 border-pink-100',
+    titleHover: 'group-hover:text-rose-600',
+    button: 'bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 hover:from-rose-700 hover:to-purple-700 shadow-rose-600/25',
+    cardHover: 'hover:border-pink-300 hover:shadow-pink-500/10'
   }
 };
 
@@ -129,6 +141,8 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
         return <Compass className="w-6 h-6" />;
       case 'Store':
         return <Store className="w-6 h-6" />;
+      case 'Video':
+        return <Video className="w-6 h-6" />;
       default:
         return <HelpCircle className="w-6 h-6" />;
     }
@@ -226,6 +240,57 @@ export const NavigationGrid: React.FC<NavigationGridProps> = ({ onSelectFeature 
             </div>
           );
         })}
+      </div>
+
+      {/* Media Channels Highlight Banner */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-slate-900 via-slate-800 to-[#003866] rounded-3xl p-6 text-white border border-slate-700 shadow-md flex flex-col md:flex-row items-center justify-between gap-5">
+        <div className="flex items-center gap-4 text-center md:text-left">
+          <div className="w-13 h-13 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center shrink-0 text-pink-400 shadow-sm">
+            <Video className="w-6 h-6 text-[#00F2FE]" />
+          </div>
+          <div className="space-y-1">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/10 text-2xs font-bold text-amber-300 border border-white/15">
+              <Share2 className="w-3 h-3 text-amber-300" />
+              <span>Kênh truyền thông - giải trí VietinBank Chi nhánh Hội An</span>
+            </div>
+            <h4 className="text-base sm:text-lg font-black text-white">
+              TikTok @vietinhoian & Fanpage Facebook VietinBank Hội An
+            </h4>
+            <p className="text-xs text-slate-300 max-w-xl">
+              Cập nhật video giải trí ngắn, mẹo giao dịch iPay tiện lợi, cẩm nang phòng chống lừa đảo & ưu đãi tài chính mới nhất.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2.5 shrink-0 flex-wrap justify-center">
+          <button
+            id="btn-nav-to-media-banner"
+            onClick={() => onSelectFeature('media')}
+            className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 text-white font-bold text-xs shadow-md shadow-pink-600/30 transition-all active:scale-95"
+          >
+            Khám phá 2 kênh
+          </button>
+          <a
+            id="btn-quick-tiktok"
+            href="https://www.tiktok.com/@vietinhoian"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3.5 py-2.5 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs border border-white/20 transition-all flex items-center gap-1.5"
+          >
+            <Video className="w-3.5 h-3.5 text-[#00F2FE]" />
+            <span>TikTok</span>
+          </a>
+          <a
+            id="btn-quick-facebook"
+            href="https://www.facebook.com/vietinbankhoian"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3.5 py-2.5 rounded-xl bg-[#1877F2] hover:bg-blue-600 text-white font-bold text-xs transition-all flex items-center gap-1.5"
+          >
+            <ThumbsUp className="w-3.5 h-3.5" />
+            <span>Facebook</span>
+          </a>
+        </div>
       </div>
 
       {/* Counter Assistance Callout */}

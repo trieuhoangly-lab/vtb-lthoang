@@ -1,6 +1,6 @@
 {
   "name": "VietinBank - Quầy Giao Dịch Tương Tác",
-  "description": "Ứng dụng tương tác với khách hàng tại quầy giao dịch VietinBank: Giải đáp thắc mắc, Tải App Ipay, Mini Game đổi quà, Tính lãi tiết kiệm & Lịch trả nợ vay, Sản phẩm nổi bật, Điểm giao dịch, Giới thiệu du lịch địa phương và Bản đồ giao thương.",
+  "description": "Ứng dụng tương tác với khách hàng tại quầy giao dịch VietinBank: Giải đáp thắc mắc, Tải App Ipay, Mini Game đổi quà, Tính lãi tiết kiệm & Lịch trả nợ vay, Sản phẩm nổi bật, Điểm giao dịch, Giới thiệu du lịch địa phương, Bản đồ giao thương và Kênh truyền thông giải trí TikTok, Facebook.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

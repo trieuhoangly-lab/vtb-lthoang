@@ -8,7 +8,8 @@ export type NavigationKey =
   | 'featured_products'
   | 'branches'
   | 'local_tourism'
-  | 'trade_map';
+  | 'trade_map'
+  | 'media';
 
 export interface ProvinceItem {
   id: number;
@@ -95,4 +96,21 @@ export interface VoucherReward {
   score: number;
   rewardText: string;
   createdAt: string;
+}
+
+export interface MediaChannel {
+  id: string;
+  name: string;
+  handle: string;
+  platform: string;
+  url: string;
+  qrUrl: string;
+  badge: string;
+  category?: string;
+  description: string;
+  highlights: string[];
+  buttonText: string;
+  color: string;
+  textColor?: string;
+  bgGradient?: string;
 }
