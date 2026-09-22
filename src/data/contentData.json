@@ -76,6 +76,22 @@
       "subtitle": "Hệ thống Chi nhánh & PGD tại Hội An",
       "badge": "Mạng lưới",
       "icon": "MapPin"
+    },
+    {
+      "id": 8,
+      "key": "local_tourism",
+      "title": "Giới thiệu du lịch địa phương",
+      "subtitle": "Ẩm thực, khách sạn resort & điểm vui chơi 63 tỉnh thành",
+      "badge": "Du lịch",
+      "icon": "Compass"
+    },
+    {
+      "id": 9,
+      "key": "trade_map",
+      "title": "Bản đồ giao thương",
+      "subtitle": "Tìm cơ sở kinh doanh uy tín theo ngành nghề & địa phương",
+      "badge": "Giao thương",
+      "icon": "Store"
     }
   ],
   "faqSection": {
@@ -451,5 +467,254 @@
         "mapUrl": "https://maps.app.goo.gl/8tXEGpNTk76LF15V8"
       }
     ]
+  },
+  "provincesList": [
+    { "id": 1, "name": "An Giang (An Giang)" },
+    { "id": 2, "name": "Bà Rịa - Vũng Tàu (TP. Hồ Chí Minh)" },
+    { "id": 3, "name": "Bắc Giang (Bắc Ninh)" },
+    { "id": 4, "name": "Bắc Kạn (Thái Nguyên)" },
+    { "id": 5, "name": "Bạc Liêu (Cà Mau)" },
+    { "id": 6, "name": "Bắc Ninh (Bắc Ninh)" },
+    { "id": 7, "name": "Bến Tre (Vĩnh Long)" },
+    { "id": 8, "name": "Bình Định (Gia Lai)" },
+    { "id": 9, "name": "Bình Dương (TP. Hồ Chí Minh)" },
+    { "id": 10, "name": "Bình Phước (Đồng Nai)" },
+    { "id": 11, "name": "Bình Thuận (Lâm Đồng)" },
+    { "id": 12, "name": "Cà Mau (Cà Mau)" },
+    { "id": 13, "name": "Cao Bằng (Cao Bằng)" },
+    { "id": 14, "name": "Cần Thơ (TP. Cần Thơ)" },
+    { "id": 15, "name": "Đà Nẵng (TP. Đà Nẵng)" },
+    { "id": 16, "name": "Đắk Lắk (Đắk Lắk)" },
+    { "id": 17, "name": "Đắk Nông (Lâm Đồng)" },
+    { "id": 18, "name": "Điện Biên (Điện Biên)" },
+    { "id": 19, "name": "Đồng Nai (Đồng Nai)" },
+    { "id": 20, "name": "Đồng Tháp (Đồng Tháp)" },
+    { "id": 21, "name": "Gia Lai (Gia Lai)" },
+    { "id": 22, "name": "Hà Giang (Tuyên Quang)" },
+    { "id": 23, "name": "Hà Nam (Ninh Bình)" },
+    { "id": 24, "name": "Hà Nội (TP. Hà Nội)" },
+    { "id": 25, "name": "Hà Tĩnh (Hà Tĩnh)" },
+    { "id": 26, "name": "Hải Dương (TP. Hải Phòng)" },
+    { "id": 27, "name": "Hải Phòng (TP. Hải Phòng)" },
+    { "id": 28, "name": "Hậu Giang (TP. Cần Thơ)" },
+    { "id": 29, "name": "Hòa Bình (Phú Thọ)" },
+    { "id": 30, "name": "Hưng Yên (Hưng Yên)" },
+    { "id": 31, "name": "Khánh Hòa (Khánh Hòa)" },
+    { "id": 32, "name": "Kiên Giang (An Giang)" },
+    { "id": 33, "name": "Kon Tum (Quảng Ngãi)" },
+    { "id": 34, "name": "Lai Châu (Lai Châu)" },
+    { "id": 35, "name": "Lâm Đồng (Lâm Đồng)" },
+    { "id": 36, "name": "Lạng Sơn (Lạng Sơn)" },
+    { "id": 37, "name": "Lào Cai (Lào Cai)" },
+    { "id": 38, "name": "Long An (Tây Ninh)" },
+    { "id": 39, "name": "Nam Định (Ninh Bình)" },
+    { "id": 40, "name": "Nghệ An (Nghệ An)" },
+    { "id": 41, "name": "Ninh Bình (Ninh Bình)" },
+    { "id": 42, "name": "Ninh Thuận (Khánh Hòa)" },
+    { "id": 43, "name": "Phú Thọ (Phú Thọ)" },
+    { "id": 44, "name": "Phú Yên (Đắk Lắk)" },
+    { "id": 45, "name": "Quảng Bình (Quảng Trị)" },
+    { "id": 46, "name": "Quảng Nam (TP. Đà Nẵng)" },
+    { "id": 47, "name": "Quảng Ngãi (Quảng Ngãi)" },
+    { "id": 48, "name": "Quảng Ninh (Quảng Ninh)" },
+    { "id": 49, "name": "Quảng Trị (Quảng Trị)" },
+    { "id": 50, "name": "Sóc Trăng (TP. Cần Thơ)" },
+    { "id": 51, "name": "Sơn La (Sơn La)" },
+    { "id": 52, "name": "Tây Ninh (Tây Ninh)" },
+    { "id": 53, "name": "Thái Bình (Hưng Yên)" },
+    { "id": 54, "name": "Thái Nguyên (Thái Nguyên)" },
+    { "id": 55, "name": "Thanh Hóa (Thanh Hóa)" },
+    { "id": 56, "name": "TP. Hồ Chí Minh (TP. Hồ Chí Minh)" },
+    { "id": 57, "name": "TP. Huế (TP. Huế)" },
+    { "id": 58, "name": "Tiền Giang (Đồng Tháp)" },
+    { "id": 59, "name": "Trà Vinh (Vĩnh Long)" },
+    { "id": 60, "name": "Tuyên Quang (Tuyên Quang)" },
+    { "id": 61, "name": "Vĩnh Long (Vĩnh Long)" },
+    { "id": 62, "name": "Vĩnh Phúc (Phú Thọ)" },
+    { "id": 63, "name": "Yên Bái (Lào Cai)" }
+  ],
+  "tourismSection": {
+    "title": "Giới thiệu du lịch địa phương",
+    "subtitle": "Tìm kiếm địa điểm ăn uống, nghỉ dưỡng và vui chơi theo 63 tỉnh thành Việt Nam",
+    "defaultProvinceId": 46,
+    "featuredProvinceLabel": "Quảng Nam – Hội An (TP. Đà Nẵng)",
+    "categories": [
+      { "key": "eating", "label": "Địa điểm ăn / uống", "icon": "UtensilsCrossed", "count": 5 },
+      { "key": "staying", "label": "Khách sạn / Resort / Nhà nghỉ", "icon": "Hotel", "count": 5 },
+      { "key": "playing", "label": "Địa điểm vui chơi", "icon": "Sparkles", "count": 5 }
+    ],
+    "places": {
+      "46": {
+        "eating": [
+          {
+            "id": "eat-1",
+            "name": "Cơm gà Bà Buội",
+            "address": "22 Phan Châu Trinh, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/com-ga-ba-buoi.jpg",
+            "mapUrl": "https://maps.app.goo.gl/GSTJXuLgDa8jGEq3A",
+            "tag": "Đặc sản Hội An"
+          },
+          {
+            "id": "eat-2",
+            "name": "Bánh mì Phượng",
+            "address": "2b Phan Châu Trinh, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Banh-my-Phuong.jpg",
+            "mapUrl": "https://maps.app.goo.gl/xs4rp7FuFNj24YDK7",
+            "tag": "Ẩm thực đường phố"
+          },
+          {
+            "id": "eat-3",
+            "name": "Cao lầu Thanh",
+            "address": "26 Thái Phiên, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Cao-lau-Thanh.jfif",
+            "mapUrl": "https://maps.app.goo.gl/MdH5TedhBRvFaFNk8",
+            "tag": "Món ngon truyền thống"
+          },
+          {
+            "id": "eat-4",
+            "name": "Nhà hàng Bông hồng trắng",
+            "address": "533 Hai Bà Trưng, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/banh-hoa-hong-trang-hoi-an.jpg",
+            "mapUrl": "https://maps.app.goo.gl/hjVAbk9VgW2q6Yn8A",
+            "tag": "Bánh hoa hồng trắng"
+          },
+          {
+            "id": "eat-5",
+            "name": "Hoành thánh Anh Dũng",
+            "address": "14 Bà Triệu, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Hoang-Thanh-Anh-Dung.jpg",
+            "mapUrl": "https://maps.app.goo.gl/DbsdpWKevyYjPSgw8",
+            "tag": "Hoành thánh chiên giòn"
+          }
+        ],
+        "staying": [
+          {
+            "id": "stay-1",
+            "name": "La Siesta Hoi An Resort & Spa",
+            "address": "132 Hùng Vương, Hội An Tây, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/O/La-Siesta-Hoi-An.jpg",
+            "mapUrl": "https://maps.app.goo.gl/ATxHMqMACNXeYsN38",
+            "tag": "Resort & Spa 5 sao"
+          },
+          {
+            "id": "stay-2",
+            "name": "Allegro Hoi An Hotel",
+            "address": "86/2 Trần Hưng Đạo, Phường, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/O/allegro-hoi-an-1.jpg",
+            "mapUrl": "https://maps.app.goo.gl/ke1yEaAiTNCz1v5h8",
+            "tag": "Khách sạn cao cấp"
+          },
+          {
+            "id": "stay-3",
+            "name": "Anantara Hoi An Resort",
+            "address": "1 Đường Phạm Hồng Thái, Hội An, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/O/anantara_hoi_an.avif",
+            "mapUrl": "https://maps.app.goo.gl/NdR5USh8Up236eb17",
+            "tag": "Khu nghỉ dưỡng ven sông"
+          },
+          {
+            "id": "stay-4",
+            "name": "Wyndham Royal Beachfront Resort & Spa",
+            "address": "Hà My Đông A, Điện Bàn Đông, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/O/Wyndham-Hoi-An-Royal-Beachfront.jpg",
+            "mapUrl": "https://maps.app.goo.gl/yvFmYmqJx3YZ5V178",
+            "tag": "Khu nghỉ dưỡng ven biển"
+          },
+          {
+            "id": "stay-5",
+            "name": "Little Oasis - An Eco-Friendly Boutique Hotel & Spa",
+            "address": "215 Lê Thánh Tông, Hội An Đông, Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/O/Little-Oasis.jpg",
+            "mapUrl": "https://maps.app.goo.gl/hLUANWZ55jBi7aHD8",
+            "tag": "Boutique sinh thái"
+          }
+        ],
+        "playing": [
+          {
+            "id": "play-1",
+            "name": "Khu phố cổ Hội An",
+            "address": "Khu phố cổ (Chùa Cầu, Hội Quán Phước Kiến, khu phố đi bộ …)",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Choi/Pho-co-hoi-an.jpg",
+            "mapUrl": "https://maps.app.goo.gl/c1LkcDvigQBizdaZ8",
+            "tag": "Di sản Văn hóa Thế giới"
+          },
+          {
+            "id": "play-2",
+            "name": "Rừng dừa Bảy Mẫu",
+            "address": "Cẩm Thanh, Hội An Đông, TP Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Choi/Rung-dua-bay-mau.jfif",
+            "mapUrl": "https://maps.app.goo.gl/rGYkU42jzFLcJuTx9",
+            "tag": "Chèo thuyền thúng"
+          },
+          {
+            "id": "play-3",
+            "name": "Đảo Ký Ức Hội An",
+            "address": "Nguyễn Tri Phương, Hội An, TP Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Choi/Dao-ky-uc-hoi-an.jfif",
+            "mapUrl": "https://maps.app.goo.gl/7X8Hwi6e5pJsfMC18",
+            "tag": "Show thực cảnh & Công viên văn hóa"
+          },
+          {
+            "id": "play-4",
+            "name": "Biển An Bàng",
+            "address": "Bãi biển An Bàng, Đường Hai Bà Trưng, Hội An Tây, TP Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Choi/Bien-An-Bang.jfif",
+            "mapUrl": "https://maps.app.goo.gl/rsxhmggyfPU4YzYh6",
+            "tag": "Top bãi biển đẹp nhất Châu Á"
+          },
+          {
+            "id": "play-5",
+            "name": "Làng rau Trà Quế",
+            "address": "Đường Hai Bà Trưng, Hội An Tây, TP Đà Nẵng",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Hoi-An/Choi/Lang-rau-tra-Que.jpg",
+            "mapUrl": "https://maps.app.goo.gl/bpb5cHq6A8gTuyrd7",
+            "tag": "Làng nghề truyền thống"
+          }
+        ]
+      }
+    }
+  },
+  "tradeMapSection": {
+    "title": "Bản đồ giao thương",
+    "subtitle": "Tìm cơ sở kinh doanh uy tín theo ngành nghề & địa phương",
+    "defaultProvinceId": 46,
+    "featuredProvinceLabel": "Quảng Nam - Hội An (TP. Đà Nẵng)",
+    "specialties": {
+      "46": [
+        {
+          "id": "spec-tuong-ot",
+          "category": "Tương ớt",
+          "businessName": "Tương ớt Triều Phát",
+          "address": "41 Nguyễn Thái Học, Hội An, Đà Nẵng",
+          "phone": "02353861816",
+          "phoneFormatted": "0235.3861.816",
+          "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Ban-do-giao-thuong/Hoi-An/Tuong-ot.jfif",
+          "mapUrl": "https://maps.app.goo.gl/okUDiCps1Y2qKXkD8",
+          "description": "Thương hiệu tương ớt gia truyền nổi tiếng lâu đời bậc nhất phố cổ Hội An với hương vị cay nồng đặc trưng."
+        },
+        {
+          "id": "spec-ocop",
+          "category": "Đặc sản địa phương như bánh, trà ..",
+          "businessName": "OCOP House",
+          "address": "219 Nguyễn Duy Hiệu, Hội An, Đà Nẵng",
+          "phone": "0862181219",
+          "phoneFormatted": "0862.181.219",
+          "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Ban-do-giao-thuong/Hoi-An/Ocop.jfif",
+          "mapUrl": "https://maps.app.goo.gl/3DWcv7ZudTskjhFZA",
+          "description": "Nơi trưng bày và cung cấp các sản phẩm OCOP đạt chuẩn cao cấp: trà thảo mộc, bánh kẹo truyền thống, quà tặng Hội An."
+        },
+        {
+          "id": "spec-den-long",
+          "category": "Đèn lồng Hội An",
+          "businessName": "Xưởng đèn lồng Hà Linh",
+          "address": "Huỳnh Thúc Kháng, Cẩm Phô, Hội An, Đà Nẵng",
+          "phone": "0235393037",
+          "phoneFormatted": "0235.3930.37",
+          "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Ban-do-giao-thuong/Hoi-An/Ha-Linh.jfif",
+          "mapUrl": "https://maps.app.goo.gl/fbrsyqfj2XFnLNzJ7",
+          "description": "Cơ sở sản xuất đèn lồng thủ công mỹ nghệ quy mô lớn, tinh xảo, cung ứng trong nước và xuất khẩu quốc tế."
+        }
+      ]
+    }
   }
 }

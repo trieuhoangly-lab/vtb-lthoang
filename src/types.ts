@@ -6,7 +6,36 @@ export type NavigationKey =
   | 'deposit_calc'
   | 'loan_calc'
   | 'featured_products'
-  | 'branches';
+  | 'branches'
+  | 'local_tourism'
+  | 'trade_map';
+
+export interface ProvinceItem {
+  id: number;
+  name: string;
+  regionCode: string;
+}
+
+export interface TourismPlace {
+  id: string;
+  name: string;
+  address: string;
+  imageUrl: string;
+  mapUrl: string;
+  category: 'eating' | 'staying' | 'playing';
+}
+
+export interface TradeBusiness {
+  id: string;
+  provinceKey: string;
+  specialtyCategory: string;
+  businessName: string;
+  address: string;
+  phone: string;
+  phoneFormatted: string;
+  imageUrl: string;
+  mapUrl: string;
+}
 
 export interface StepItem {
   step: number;
